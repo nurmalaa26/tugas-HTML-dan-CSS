@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    } 
+    body{
+    background-image: url("bggg.jfif");
+    text-align: center;
+    }
+    
+    h3 {
+      margin: 30px;
+    }
+    div {
+      background-color: rgb(215, 210, 210);
+      width: 1000px;
+      border: 15px solid rgb(1, 1, 1);
+      padding: 15px;
+      margin: 30px;
+    }
+    p1 {
+        font-family:"Times New Roman", Times, serif;
+      }
+    
+    p1 {
+        font-size: 20px;
+    } 
+    p2 {
+        font-family:"Times New Roman", Times, serif;
+      }
+    p4 {
+      margin: 20px;
+    } 
+    h2 {
+      margin: 20px;
+    }
+    ul.a {
+      list-style-type: square;
+    } 
+    section{
+    margin: 30px auto;
+    }
+     
+    section img{
+    border-radius: 100%;
+    border: 10px solid rgb(255, 255, 255);
+    }
+
+    section img {
+      border: 1px solid;
+      float: left;
+    }
+
+    header ul {
+      border: 1px solid;
+      float: right;
+    }
+
+   

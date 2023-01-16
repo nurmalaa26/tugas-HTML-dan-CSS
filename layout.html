@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>my layout</title>
+    <link rel="icon" type="image/x-icon" href="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Courier New', Courier, monospace;
+}
+
+/* Style the header */
+header {
+  background-color:  rgb(0, 0, 0);
+  padding: 1%;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: rgb(0, 0, 0);
+  padding: 15px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 10px;
+  width: 70%;
+  background-image: url("bggg.jfif");
+  text-align: center;
+  height: 100%; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  background-color: rgba(211, 211, 211, 0.62);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button5 {border-radius: 50%;}
+
+/* Style the footer */
+footer {
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+#borderimg { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 stretch;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2 style="background-color: lightgrey;">Profil mahasiswa</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><button onclick="dokumen.location" class="button" target="_blank"><a href="index.html">home</a></button></li>
+      <li><button onclick="dokumen.location" class="button" target="_blank"><a href="profile.html">profile</a></button></li>
+      <li><button onclick="dokumen.location" class="button" target="_blank"><a href="layout.html">layout</a></button></li>
+    </ul>
+  </nav>
+  
+<article>
+  <h1>home</h1>
+    <p><b><center>SELAMAT DATANG</center></b></p>
+<hr>
+<hr>
+  <section><img src="fto.jpeg" alt="malla.jpeg" usemap="#workmap" width="400" height="310"></img></section>
+</body>
+<hr>
+<hr>
+<p1><center>
+<style>
+table, th, td {
+border: 2px solid rgb(0, 0, 0);
+}
+</style>
+<table style="width: 50%;">
+  <tr style="font-size: 20px;">
+    <td><b>Nama </b></td>
+    <td><b>Nurmala Khumairoh</b></td>
+  </tr>
+  <tr style="font-size: 20px;">
+    <td><b>TTL </b></td>
+    <td><b>Bangkalan, 26 April 2003</b></td>
+  </tr>
+  <tr style="font-size: 20px;">
+    <td><b>Alamat </b></td>
+    <td><b>Jln. Aermata Ibu Kec.Arosbaya
+      Kab.Bangkalan-Madura Provinsi Jawa Timur</b></td>
+  </tr>
+  </table>
+</center></p1>
+<hr>
+<hr>
+<hr>
+
+<body><center>
+  <div><h3 style="font-size: 60px;">My Profile</h3>
+  <p2 style="font-size: 30px;"><b>Perkenalkan nama saya Nurmala Khumairoh. Saya biasa dipanggil <ins>Mala</ins>. Kemudian ditahun 2023 nanti saya berumur 20.
+    Saya asli dari <i>Madura</i>. Tetapi sekarang berdomisili di pesantren yang ada di Pasuruan lebih tepatnya daerah <i>Sengonagung</i>. 
+    Dan sekarang saya adalah mahasiswa dari Universitas Yudharta Pasuruan dengan Prodi <i>Teknik Informatika</i>
+    Dalam jurusan ini saya masih sangat pemula karena sebelumnya saya hanya lulusan SMA yang jurusannya IPS. Alasan saya masuk jurusan ini karena saya 
+    lebih suka praktek daripada lebih banyak materi.sekian dari Saya. Semoga bisa berjumpa lagi pada tugas selanjutnya:)</b></p2>
+  </div></center>
+</body>
+<hr>
+<h1 style="font-size: 30px"><b>My Account</b>s</h1>
+<style>
+  table, th, td {
+  border: 2px solid rgb(0, 0, 0);
+  }
+  </style>
+  <table style="width: 50%;">
+    <tr style="font-size: 20px;">
+      <td><b>My Instagram </b></td>
+      <td><b><a href="https://www.instagram.com/nmalaa.khumairh/">Instagram</a></b></td>
+  </tr>
+  <table style="width: 50%;">
+    <tr style="font-size: 20px;">
+      <td><b>My Wordpress </b></td>
+    <td><b><a href="https://wordpress.com/view/nurmalakhumairoh.wordpress.com">Wordpress</a></b></td>
+  </tr>
+  </table>
+<body>
+  <h2 style="font-size: 40px;";><b>Riwayat Pendidikan</b></h2>
+    <p3 style="font-size: 25px;"><ul.a>
+      <li><b>TK :  TK PKK Arosbaya</li>
+      <li>SD : SDN 03 Arosbaya</li>
+      <li>SMP : SMPN 01 Arosbaya</li>
+      <li>SMA : SMA Darut Taqwa</b></li>
+    </ul.a></p3>
+</body>
+  <h2 style="color:rgb(5, 5, 4); font-size: 45px; text-align: center;"><b>Bye!</b></h2>  
+</article>
+</section>
+
+<footer>
+  <p>copyright...By NURMALA KHUMAIROH</p>
+</footer>
+
+</body>
+</html>
